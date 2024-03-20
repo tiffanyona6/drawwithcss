@@ -11,4 +11,23 @@ Colors:
 }
 
 .leaf {
+  background-color: #f3ac3c;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  top: 30px;
+  left: 200px;
+  border-radius: 100%;
+}
+
+.leaf:after {
+  background-color: #f3ac3c;
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 120px;
+  left: -120px;
+  border-radius: 100px 0 100px 100px;
+  box-shadow: 60px -60px #998235;
 }

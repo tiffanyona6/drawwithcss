@@ -11,4 +11,24 @@ Colors:
 }
 
 .soap {
+  background-color: #ff5f54;
+  position: relative;
+  width: 105px;
+  height: 200px;
+  rotate: 90deg;
+  top: 40px;
+  left: 150px;
+  border-radius: 20px;
+  box-shadow: 20px 0 #bf4740;
+}
+
+.soap::after {
+  background-color: #bf4740;
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 140px;
+  top: 30px;
+  left: 30px;
+  border-radius: 100px;
 }

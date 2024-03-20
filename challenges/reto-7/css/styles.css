@@ -11,4 +11,33 @@ Colors:
 }
 
 .shape {
+  background-color: #8c3d62;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  top: 75px;
+  left: 70px;
+}
+
+.shape::after {
+  background-color: #030026;
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  top: 0px;
+  left: 105px;
+  box-shadow: inset -105px 0 0 0 #ff8582;
+}
+
+.shape:before {
+  background-color: #8c3d62;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  top: 75px;
+  left: 70px;
 }
