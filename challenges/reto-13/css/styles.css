@@ -2,12 +2,51 @@
 IMPORTANTE: USAR UN SOLO DIV
 Colors:
   Red: #84271C
-  Yellow: ##CA03D
+  Yellow: #eca03e
 */
 
 .box {
-  background-color: #191210;
+  background-color: #181910;
 }
 
 .circle {
+  background-color: #84271c;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 125px;
+  left: 175px;
+  border-radius: 100px;
+  outline: 20px solid #eca03e;
+  outline-offset: 25px;
+}
+
+.circle:after {
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  top: -25px;
+  left: 75px;
+  border-radius: 50%;
+  border: 20px solid #eca03e;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  rotate: 135deg;
+}
+
+.circle:before {
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  top: -20px;
+  left: -120px;
+  border-radius: 50%;
+  border: 20px solid #eca03e;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  rotate: -50deg;
 }
